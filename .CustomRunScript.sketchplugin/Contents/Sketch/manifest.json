@@ -1,0 +1,24 @@
+{
+  "author" : "tankxu",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "name" : "Custom Run Script",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "custom-run-script"
+    }
+  ],
+  "menu" : {
+    "isRoot" : true,
+    "items" : [
+      "custom-run-script"
+    ]
+  },
+  "identifier" : "com.tankxu.sketch.custom-run-script",
+  "version" : "1.0",
+  "description" : "",
+  "authorEmail" : "tankxuu@gmail.com",
+  "name" : "Custom Run Script"
+}

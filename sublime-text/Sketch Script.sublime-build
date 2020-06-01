@@ -1,0 +1,4 @@
+{
+	"shell_cmd": "\"/Users/tank/Library/Application Support/com.bohemiancoding.sketch3/Plugins/.CustomRunScript.sketchplugin/Contents/Sketch/exec-script.sh\" \"$file\"",
+  "file_patterns": ["*.js"]
+}
