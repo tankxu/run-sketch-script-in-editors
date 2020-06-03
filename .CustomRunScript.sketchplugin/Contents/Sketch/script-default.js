@@ -16,6 +16,10 @@ var onRun = function(context) {
   const Text = sketch.Text
   const SymbolMaster = sketch.SymbolMaster
   const SymbolInstance = sketch.SymbolInstance
-  sketch.UI.message('Runing Sketch Scripts 👍')
+  const Settings = sketch.Settings
+  const UI = sketch.UI
+  UI.message('Runing Sketch Scripts 👍')
+  
+  // Custom scripts will be added to here
   
 };
