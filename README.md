@@ -12,7 +12,7 @@ Another part is a **build system** or **run task** for editors. This makes your 
 
 After you run the build system or run task in editors, the shell script will copy the ```script-default.js``` file in sketch plugin to a new ```script.js``` file. And your scripts will be added into the end of the ```scripts.js``` file. Then the shell script will run the sketch plugin in your current sketch document.
 
-The ```script-default.js``` contains some useful const code, like
+The [script-default.js](https://github.com/tankxu/run-sketch-script-in-editors/blob/master/.CustomRunScript.sketchplugin/Contents/Sketch/script-default.js) file contains some useful const code, like
 ```
 const sketch = require("sketch")
 const document = sketch.getSelectedDocument()
